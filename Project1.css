@@ -1,0 +1,62 @@
+.Background {
+    background-color: black;
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+.heading1 {
+    position: fixed;
+    background-color: #FFD523;
+    color: #595260;
+    border-radius: 5px;
+    padding: 3px;
+    width: 100ch;
+}
+.heading2 {
+    position: sticky;
+    top: 60px;
+    margin-top: 5px;
+    background-color: #FFD523;
+    color: #595260;
+    border-radius: 5px;
+    padding: 3px;
+    width: 100ch;
+}
+.list{
+    width: 500px;
+}
+.list-item {
+    color: white;
+}
+.list2{
+    width: 500px;
+}
+.list2-item {
+    color: white;
+}
+hr {
+    background-color: darkgray;
+    margin-left: 0rem;
+    width: 400px;
+}
+.btn {
+    margin-left: 1rem;
+    background-color: #B2B1B9;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 300px;
+}
+.btn:hover {
+    transform: scale(1.05,1.05);
+}
+.para {
+    visibility: hidden;
+    margin-left: 1rem;
+    color: lightgray;
+}
+.para2 {
+    visibility: hidden;
+    margin-left: 1rem;
+    color: lightgray;
+}
